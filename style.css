@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.box-content{
+    border: 1px rgb(86, 85, 85) solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    background-color: #393636;
+    width: 150px;
+    height: 150px;
+    padding: 5%;
+}
+
+.top{
+    display: flex;
+}
+
+.temp{
+    position: relative;
+    left: 40%;
+}
+
+.steps{
+    border: 4px rgb(121, 234, 65) dashed;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 33%;
+}
+
+.steps img{
+    color: white;
+}
+
+.heart{
+    border: 4px rgb(218, 91, 91) dashed;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 33%;
+}
+
+.monthDate{
+    font-size: 15px;
+    top: 80%;
+    }
+.time{
+    font-size: 200%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colories{
+    border: 4px rgb(226, 239, 127) dashed;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 53%;
+    text-align: center;
+    
+}
+
+.charging{
+    border: 4px rgb(91, 218, 210) dashed;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 33%;
+}
+
+.kilometer{
+    position: relative;
+    left: 45%;
+}
