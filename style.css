@@ -4,19 +4,19 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(44, 43, 43);
     color: white;
 }
 
 .box-content{
-    border: 1px rgb(86, 85, 85) solid;
-    border-radius: 10px;
+    border: 1px rgb(91, 91, 91) solid;
+    border-radius: 30px;
     position: absolute;
     top: 30%;
     left: 40%;
-    background-color: #393636;
-    width: 150px;
-    height: 150px;
+    background-color: #000000;
+    width: 160px;
+    height: 200px;
     padding: 5%;
 }
 
@@ -27,36 +27,71 @@ body{
 .temp{
     position: relative;
     left: 40%;
+    top: -5%;
 }
 
 .steps{
     border: 4px rgb(121, 234, 65) dashed;
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 56px;
+    width: 70px;
     position: relative;
     top: 33%;
+    left: 0%;
+    text-align: center;
 }
 
 .steps img{
-    color: white;
+    height: 25px;
+    margin-top: 5px;
+
 }
 
 .heart{
     border: 4px rgb(218, 91, 91) dashed;
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 56px;
+    width: 70px;
     position: relative;
     top: 33%;
+    text-align: center;
 }
 
+.heart img{
+    margin-top: 5px;
+    height:20px;
+}
+
+.main{
+    display:flex;
+}
+
+.main img{
+    height: 25px;
+    align-items: center;
+    margin-top:20px
+}
+
+.timeM{
+    font-size: 15px;
+    margin-top: 10px;
+
+}
 .monthDate{
     font-size: 15px;
     top: 80%;
     }
 .time{
-    font-size: 200%;
+    font-size: 300%;
+    margin-right:5px ;
+    text-align: center;
+}
+.sec{
+    font-size:15px;
+}
+
+.weekDay{
+    text-align: center;
 }
 
 .bottom{
@@ -67,21 +102,32 @@ body{
 .colories{
     border: 4px rgb(226, 239, 127) dashed;
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 56px;
+    width: 55px;
     position: relative;
     top: 53%;
     text-align: center;
     
 }
 
+.colories img{
+    height: 25px;
+    margin-top: 5px;
+}
+
 .charging{
     border: 4px rgb(91, 218, 210) dashed;
     border-radius: 50px;
-    height: 40px;
-    width: 40px;
+    height: 56px;
+    width: 55px;
     position: relative;
     top: 33%;
+    text-align: center;
+}
+
+.charging img{
+    height:15px;
+    margin-top: 8px;
 }
 
 .kilometer{
